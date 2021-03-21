@@ -1,0 +1,252 @@
+body
+{
+  padding: 0;
+  margin: 0;
+  font-size: 20px !important;
+  color: #fff;
+  font-size: 16px !important;
+}
+
+ 
+
+#info_btn
+{
+  fill:#fff;
+  transition: all 300ms;
+}
+ 
+
+#info_btn:hover
+{
+  transform: scale(1.2);
+  fill:orange;
+  cursor: pointer;
+}
+
+#show_info{
+  display: none;
+}
+
+#show_info:target{
+  display: block;
+}
+
+input[type="text"]
+{
+  font-size: 1.1em;
+  border: 1px solid green;
+}
+
+.fs-15
+{
+  font-size: 1.5em;
+}
+
+
+.gizle
+{
+  display: none !important;
+}
+
+
+.goster
+{
+  display: block !important;
+
+}
+
+
+.change_color
+{
+  background-color:#DC3545 !important;
+  color: #fff;
+}
+
+ 
+
+tr:hover
+{
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+#btn_elave_et,
+.manipulation_button
+{
+  width: 8em !important;
+}
+
+ 
+
+ #table_qiymet_tutucu tr
+{
+  cursor: text;
+}
+
+td b
+{
+  font-size:1em;
+  color: #000;
+}
+
+.currency_symbol
+{
+  font-size:1em;
+  color: #000;
+}
+
+.table_header
+{
+ color: #28A745;
+}
+
+::selection
+{
+  color: #fff;
+  background: #000;
+}
+
+.btn_icon{
+  fill:#fff;
+}
+
+
+#qiymet_tutucu_container{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  /* border-top: 1px solid #6C757D; */
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+#cedvel_container
+{
+  margin-bottom: 4.7em;
+}
+
+.text_umumi
+{
+   flex-wrap: nowrap !important;
+}
+
+.currency_symbol
+{
+  white-space: pre !important;
+}
+
+#logo_text
+{
+   margin-top:5px;
+   cursor:pointer;
+   transition:all 300ms;
+}
+
+
+#logo_text:hover
+{
+   color:orange;
+   transform:scale(1.1);
+}
+
+ 
+
+
+@media only screen and (max-width:327px)
+{
+ .dialog-confirm{
+   padding: 5px !important;
+   width: 4em;
+   border-radius: 1px !important;
+ }
+}
+
+
+@media only screen and (max-width:388px)
+{
+  .dialog-alert{
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width:360px){
+
+  .responsive_table
+  {
+      overflow: auto !important;
+  }
+  
+   
+}
+
+
+@media only screen and (max-width:770px)
+{   
+    
+  
+  td{
+      vertical-align: middle !important;
+  }
+
+  td:last-child
+  {
+    white-space: nowrap;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width:580px)
+{
+  body{
+    font-size: 1em !important;
+  }
+
+
+  #logo_text
+  {
+   font-size: 1.4em;
+   margin-top:5px;
+   margin-left: 8px !important;
+  }
+
+  #info_btn
+  { 
+    margin-top:-3px;
+    margin-right: 7px !important;
+  }
+
+  #logo_type
+  {
+    text-align: center;
+  }
+
+  #input_container
+  {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  input[type="text"]
+  {
+    margin-top: 1em;
+  }
+
+
+  #btn_kontrol_container
+  {
+     display: flex;
+  }
+
+  input[type="text"]
+  {
+     margin-top: .5em !important;
+  }
+
+}
